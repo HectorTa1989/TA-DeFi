@@ -8,12 +8,19 @@ Let's start with a high-level system design and then dive into the code structur
 Now, let's break down the components and their responsibilities:
 
 Frontend dApp: React-based web application
+
 Backend Server: Node.js with Express
+
 Smart Contracts: Solidity contracts deployed on TRON
+
 Database: PostgreSQL for off-chain data
+
 Event Listener: Monitors blockchain events
+
 TRON Node: Connects to the TRON network
+
 IPFS: Stores larger data files
+
 Oracle Service: Provides external data (e.g., token prices)
 
 Next, let's create a code structure for our application using object-oriented programming principles and focusing on high scalability.
